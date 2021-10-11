@@ -4,10 +4,10 @@ namespace Library
 {
     public class Book
     {
-        int ISBN13 { get; set; }
-        string Title { get; set; }
-        string Author { get; set; }
-        int PageNumber { get; set; }
+        public string ISBN13 { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public int PageNumber { get; set; }
 
     }
 }
